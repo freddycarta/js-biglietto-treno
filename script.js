@@ -19,4 +19,4 @@ if(age > 65) {
 
 const finalTicket = document .getElementById('finalTicket')
 
-document.getElementById('finalTicket').innerText = 'Il tuo biglietto costa'+' '+ ticket +' '+ '€'
+document.getElementById('finalTicket').innerText = 'Il tuo biglietto costa'+' '+ ticket.toFixed(2) +' '+ '€'
